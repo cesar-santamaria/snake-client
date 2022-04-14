@@ -24,13 +24,16 @@ const connect = function () {
     // setInterval(()=>{
     //   conn.write('Move: up');
     // },1000)
+    
 
 
   
   });
 
-  return conn;
+  return conn; //returns an object that allows us to listen to interact with server
 };
+
+
 
 
 module.exports = { connect }
