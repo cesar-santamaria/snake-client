@@ -20,6 +20,13 @@ const connect = function () {
     // message that appears once the succesfully connected to the server.
     console.log('Successfully connected to game server')
     conn.write('Name: NEY');
+
+    // setInterval(()=>{
+    //   conn.write('Move: up');
+    // },1000)
+
+
+  
   });
 
   return conn;
